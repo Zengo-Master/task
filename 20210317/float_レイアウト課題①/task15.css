@@ -1,0 +1,40 @@
+.wrap_1 {
+  border: 1px solid;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.box_1 {
+  border: 1px solid;
+  margin: 10px;
+}
+
+.title-text {
+  margin-left: 10px;
+}
+
+.wrap_2 {
+  border: 1px solid;
+  margin: 0px 10px 10px 10px;
+  overflow: hidden;
+}
+
+.box_2 {
+  border: 1px solid;
+  margin: 10px;
+  float: left;
+  width: calc((100% - 45px) / 2);
+}
+
+.box_2:last-child{
+  margin-left: 0px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+.tel {
+  text-align: right;
+  margin-right: 10px;
+}

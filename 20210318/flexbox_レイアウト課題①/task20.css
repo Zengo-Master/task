@@ -1,0 +1,36 @@
+.wrap {
+  border: 1px solid;
+  margin: 10px auto;
+}
+
+.box_1 {
+  border: 1px solid;
+  margin: 10px;
+}
+
+.box_2 {
+  border: 1px solid;
+  margin: 0px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box_2_child {
+  border: 1px solid;
+  margin: 10px;
+  width: calc((100% - 34px ) / 2);
+  height: 80px;
+}
+
+.box_2_child:last-child {
+  margin-left: 0px; 
+}
+
+p {
+  margin: 10px;
+}
+
+.tel {
+  text-align: right;
+}

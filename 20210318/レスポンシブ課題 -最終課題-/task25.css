@@ -1,0 +1,266 @@
+.wrap {
+  border: 1px solid;
+  margin: 10px;
+}
+
+p {
+  font-size: 12px;
+  margin: 10px;
+}
+
+.box_1 {
+  border: 1px solid;
+  margin: 10px;
+}
+
+.box_2, .box_3 {
+  border: 1px solid;
+  margin: 0px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width:959px) {
+  .box_3 {
+    border: 1px solid;
+    margin: 0px 10px 10px 10px;
+    display: block;
+    overflow: hidden;
+  }
+}
+
+.box_2 {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width:599px) {
+  .box_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.box_2_child {
+  border: 1px solid;
+  margin: 10px;
+  width: calc((100% - 34px) / 2);
+  height: 80px;
+}
+
+@media screen and (max-width:599px) {
+  .box_2_child {
+    border: 1px solid;
+    margin: 10px;
+    width: calc(100% - 22px);
+    height: 80px;
+    text-align: center;
+  }
+}
+
+.box_2_child:last-child {
+  margin-left: 0px;
+}
+
+@media screen and (max-width:599px) {
+  .box_2_child:last-child {
+    margin: 0px 10px 10px 10px;
+  }
+}
+
+.tel {
+  text-align: right;
+}
+
+@media screen and (max-width:599px) {
+  .tel {
+    text-align: center;
+  } 
+}
+
+.box_3_child {
+  border: 1px solid;
+  margin: 10px 0px 10px 10px;
+  width: calc((100% - 82px) / 6);
+  height: 80px;
+}
+
+@media screen and (max-width:959px) {
+  .box_3_child {
+    border: 1px solid;
+    margin: 10px 0px 10px 10px;
+    width: calc((100% - 46px) / 3);
+    height: 80px;
+    float: left;
+  }
+}
+
+@media screen and (max-width:599px) {
+  .box_3_child {
+    border: 1px solid;
+    margin: 10px 10px 0px 10px;
+    width: calc((100% - 22px));
+    height: 80px;
+  }
+}
+
+.box_3_child:last-child {
+  margin-right: 10px;
+}
+
+@media screen and (max-width:959px) {
+  .box_3_child:nth-child(3) {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width:959px) {
+  .box_3_child:nth-child(4), .box_3_child:nth-child(5) {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width:959px) {
+  .box_3_child:last-child {
+    margin: 0px 10px 10px 10px;
+  }
+}
+
+@media screen and (max-width:599px) {
+  .box_3_child {
+    margin: 10px 10px 0px 10px;
+  }
+}
+
+@media screen and (max-width:599px) {
+  .box_3_child:nth-child(4), .box_3_child:nth-child(5) {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width:599px) {
+  .box_3_child:last-child {
+    margin-top: 10px;
+  }
+}
+
+.box_4 {
+  border: 1px solid;
+  margin: 0px 10px 10px 10px;
+}
+
+.img_1 {
+  vertical-align: top;
+}
+
+
+.box_5 {
+  border: 1px solid;
+  margin: 0px 10px 10px 10px;
+}
+
+.box_6, .box_7 {
+  border: 1px solid;
+  margin: 0px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width:599px) {
+  .box_6, .box_7 {
+    border: 1px solid;
+    margin: 0px 10px 10px 10px;
+    display: block;
+  }
+}
+
+.box_6_sentence {
+  border: 1px solid;
+  margin: 10px;
+  width: calc((100% - 34px) * (7 / 10));
+  height: 150px;
+}
+
+@media screen and (max-width:599px) {
+  .box_6_sentence {
+    border: 1px solid;
+    margin: 10px;
+    width: calc(100% - 22px);
+    height: 150px;
+  }
+}
+
+.box_6_image {
+  border: 1px solid;
+  margin: 10px 10px 10px 0px;
+  width: calc((100% - 34px) * (3 / 10));
+  height: 150px;
+}
+
+@media screen and (max-width:599px) {
+  .box_6_image {
+    border: 1px solid;
+    margin: 0px 10px 10px 10px;
+    width: calc(100% - 22px);
+    height: 150px;
+  }
+}
+
+.box_7_item {
+  border: 1px solid;
+  margin: 10px 0px 10px 10px;
+  width: calc((100% - 46px) / 3);
+}
+
+@media screen and (max-width:599px) {
+  .box_7_item {
+    border: 1px solid;
+    margin: 10px 10px 0px 10px;
+    width: calc(100% - 22px);
+  }
+}
+
+.box_7_item:last-child {
+  margin-right: 10px;
+}
+
+@media screen and (max-width:599px) {
+  .box_7_item:last-child {
+    margin-bottom: 10px;
+  } 
+}
+
+.box_7_image {
+  border: 1px solid;
+  margin: 10px;
+  height: 250px;
+}
+
+@media screen and (max-width:599px) {
+  .box_7_image {
+    border: 1px solid;
+    margin: 10px;
+    height: 250px;
+  }
+}
+
+.box_7_sentence {
+  border: 1px solid;
+  margin: 0px 10px 10px 10px;
+  height: 100px;
+}
+
+@media screen and (max-width:599px) {
+  .box_7_sentence {
+    border: 1px solid;
+    margin: 0px 10px 10px 10px;
+    height: 250px;
+  }
+}
+
+.footer {
+  border: 1px solid;
+  margin: 0px 10px 10px 10px;
+  height: 100px;
+}

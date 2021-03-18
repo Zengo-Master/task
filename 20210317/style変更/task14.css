@@ -1,0 +1,94 @@
+.wrap1 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  margin: 10px;
+  z-index: 1;
+}
+
+.greet1 {
+  font-size: 20px;
+  color: blue;
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 10px;
+  list-style-type: circle;
+  width: 100px;
+  margin-top: 20px;
+}
+
+.wrap2 {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  margin-left: 20px;
+}
+
+.greet2 {
+  font-size: 20px;
+  color: black;
+  background-color: pink;
+  padding: 10px;
+  list-style-image: none;
+  width: 100px;
+}
+
+.wrap3 {
+  position: relative;
+  left: 350px;
+}
+
+.greet3 {
+  font-size: 20px;
+  color: black;
+  background-color: pink;
+  border-right: 3px solid blue;
+  padding: 10px;
+  list-style-position: inside;
+  width: 100px;
+}
+
+.greet3 li {
+  margin-right: 10px;
+}
+
+.greet3 li {
+  border-bottom: 3px solid red;
+}
+
+.wrap4 {
+  position: relative;
+  top: 20px;
+  left: 400px;
+}
+
+.greet4 {
+  font-size: 20px;
+  color: black;
+  background-color: skyblue;
+  border-top: 2px solid black;
+  padding: 10px;
+  list-style: armenian;
+  width: 100px;
+}
+
+.greet4 li {
+  margin-bottom: 10px;
+}
+
+.wrap5 {
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
+}
+
+.greet5 {
+  font-size: 20px;
+  color: black;
+  background-color: rgb(241, 241, 119);
+  border-left: 5px solid blue;
+  padding: 10px;
+  list-style-position: inside;
+  list-style-type: "\1F44D";
+  width: 100px;
+}
